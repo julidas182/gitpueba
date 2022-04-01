@@ -1,0 +1,28 @@
+@import "bodyindex";
+@import "footer";
+@import "general";
+
+
+.contactos{
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+} 
+
+
+@media screen and (max-width:800px){
+    .pieDePagina .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5px;
+        padding: 3rem 0;
+        
+    }
+}
+    
+@media screen and (max-width:800px){
+    .pieDePagina .grupo1 .box figure img{
+        text-align: center center;
+    }
+    
+}
