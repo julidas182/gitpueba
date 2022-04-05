@@ -4,33 +4,45 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed; }
-  body .bienvenida {
+  body .caja1 {
+    background-color: rgba(248, 235, 163, 0.5);
+    margin-bottom: 3em;
+    font-family: Arial, Helvetica, sans-serif; }
+    body .caja1 h2 {
+      text-align: center;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      font-size: 2em; }
+    body .caja1 p {
+      line-height: 2em; }
+  body section {
     text-align: center;
-    height: 85vh;
+    height: auto;
     margin-top: 5rem;
-    font-family: 'IBM Plex Serif', serif;
+    font-family: Arial, Helvetica, sans-serif;
     /* padding-left: 2rem;
         padding-right: 2rem; */ }
-    body .bienvenida h1 {
-      font-size: 3rem; }
-    body .bienvenida p {
+    body section h1 {
+      font-size: 3rem;
+      text-transform: uppercase; }
+    body section p {
       color: rgba(27, 26, 27, 0.918);
-      font-weight: 700px;
-      line-height: 5rem;
+      font-weight: lighter;
+      line-height: 2em;
       margin-top: 3rem;
       font-size: 2rem; }
 
 .pieDePagina {
-  width: 100;
+  width: auto;
   background-color: rgba(54, 51, 54, 0.856);
-  height: 200px; }
+  height: auto; }
   .pieDePagina .grupo2 {
     background-color: #0a1a2a;
     padding: 15px 10px;
     text-align: center;
     color: #fff; }
   .pieDePagina .grupo1 {
-    width: 100;
+    width: auto;
     max-width: 1000px;
     margin: auto;
     display: grid;
@@ -71,12 +83,33 @@ body {
   box-sizing: border-box; }
 
 iframe {
-  width: 100%; }
+  width: 100%;
+  scale: 0.8; }
+
+header .barraNav .nav-item {
+  font-family: Arial, Helvetica, sans-serif; }
+  header .barraNav .nav-item:hover {
+    background-color: rgba(248, 235, 163, 0.637);
+    transition: ease-out 1s;
+    transform: scale(1.05); }
 
 .contactos {
   margin-left: 5rem;
   margin-top: 2.5rem;
   margin-bottom: 5rem; }
+
+.propuestas img {
+  max-width: 100%;
+  max-height: 100%; }
+
+.propuestas .dinamico {
+  background-color: rgba(248, 235, 163, 0.5); }
+
+.propuestas .integral {
+  background-color: rgba(248, 235, 163, 0.5); }
+
+.propuestas .elementos {
+  background-color: rgba(248, 235, 163, 0.5); }
 
 @media screen and (max-width: 800px) {
   .pieDePagina .grupo1 {

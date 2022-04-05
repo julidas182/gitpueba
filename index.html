@@ -9,22 +9,19 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Hurricane&family=IBM+Plex+Serif:wght@200&;300family=Pontano+Sans&family=Poppins:wght@200&display=swap"
-        rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/32160e0985.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/main.css">
-    <title>Soy Energia Yoga</title>
+    <enlace rel="preconectar" href="https://fonts.googleapis.com">
+        <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+            <enlace href="https: //fonts.googleapis.com/css2? family= Noto+Serif & display=swap" rel="stylesheet">
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+                    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+                    crossorigin="anonymous">
+                <script src="https://kit.fontawesome.com/32160e0985.js" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="css/main.css">
+                <title>Soy Energia Yoga</title>
 </head>
 
 <body>
-    <!-- <h1>pueba flex</h1>
-    <section class="padre">
-        <div class="hijos"></div>
-        <div class="hijos"></div>
-    </section> -->
+
 
 
     <header>
@@ -47,30 +44,39 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/contactar.html">Contactar</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/productos.html">Productos</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/pages/productos.html" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Indumentaria</a></li>
+                                <li><a class="dropdown-item" href="#">Elementos</a></li>
+                                <li><a class="dropdown-item" href="#">Aromas y mas</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
     </header>
 
 
 
     <!-- -------pagina----------- -->
     <div class="container">
-        <section class="bienvenida">
-            <h1>Conectate con Soy Energia</h1>
-            <p>
+        <section class="bienvenida col-md-12 row-center-xs">
+            <h1>Soy Energia Yoga</h1>
+            <p class="parrafobienvenida">
                 Soy Energia Yoga es un espacio para conectarte con vos mismo desde la practica de yoga a través de
                 diferentes métodos.Te invito a realizar una pausa y disfrutar del presente
             </p>
         </section>
 
 
-        <div class="row">
+        <div class="row caja1">
             <div class="col-md-6">
+                <h2>ANTES DE DORMIR</h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/0V2ZK73rXhU"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -78,65 +84,46 @@
 
             </div>
             <div class="col-md-6 descripcion1  text-center m-auto ">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, officiis laudantium.
-                    Soluta illum
-                    sunt dolor laboriosam nesciunt molestiae enim, ut possimus libero, maxime, odit ex minus corporis
-                    dolorem numquam at fugit cumque consequatur velit facere aliquid alias eum. Dolorem repellendus
-                    harum provident in a sed atque tenetur porro officia error.
+                <p>A veces el ritmo del dia nos lleva a no poder calmar la mente durante la noche. Aparecen
+                    pensamientos, ideas, dudas, malestares, que no podemos dominar. te invito a realizar 15 minutos de
+                    yoga antes de dormir, movilizando el cuerpo para aquietar la mente.
 
                 </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 descripcion1  text-center m-auto ">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, officiis laudantium.
-                    Soluta illum
-                    sunt dolor laboriosam nesciunt molestiae enim, ut possimus libero, maxime, odit ex minus corporis
-                    dolorem numquam at fugit cumque consequatur velit facere aliquid alias eum. Dolorem repellendus
-                    harum provident in a sed atque tenetur porro officia error.
-
-                </p>
-            </div>
-            <div class="col-6">
+        <div class="row caja1">
+            <div class="col-md-6 col-xs-12">
+                <h2>DESPERTANDO</h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/0V2ZK73rXhU"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
+            <div class="col-md-6 col-xs-12 descripcion1  text-center m-auto">
+                <p>Arranca el dia pero a veces cuesta arrancar el cuerpo, sentimos consancio y desgano para comenzar la
+                    jornada, por eso te invito a que prubes una manera diferente de comenzar las mañanas. Realiza esta
+                    secuencia de 15 minutos sin siquieras levantarte de la cama! y activa cuerpo y mente.
+
+                </p>
+            </div>
+
         </div>
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row caja1">
+            <div class="col-md-6 col-xs-12">
+                <h2>TAMBIEN EN FAMILIA</h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/0V2ZK73rXhU"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
 
             </div>
-            <div class="col-md-6 descripcion1  text-center m-auto ">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, officiis laudantium.
-                    Soluta illum
-                    sunt dolor laboriosam nesciunt molestiae enim, ut possimus libero, maxime, odit ex minus corporis
-                    dolorem numquam at fugit cumque consequatur velit facere aliquid alias eum. Dolorem repellendus
-                    harum provident in a sed atque tenetur porro officia error.
+            <div class="col-md-6 col-xs-12 descripcion1  text-center m-auto ">
+                <p>vivimos en una era en la que lso niños y niñas estan sobre estimulados, que puedan hacer una pausa
+                    parece tarea imposible , como mamá y profesora de yoga, busco formas de hacer esto posible. Te
+                    invito a que pongas el volumen alto, acuestes a tu hijo o hija, tengas a mano su peluche preferido,
+                    y te quedes a su lado como facilitador/a. Pon play al video y acompaña esta relajación
 
                 </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 descripcion1  text-center m-auto ">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, officiis laudantium.
-                    Soluta illum
-                    sunt dolor laboriosam nesciunt molestiae enim, ut possimus libero, maxime, odit ex minus corporis
-                    dolorem numquam at fugit cumque consequatur velit facere aliquid alias eum. Dolorem repellendus
-                    harum provident in a sed atque tenetur porro officia error.
-
-                </p>
-            </div>
-            <div class="col-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/0V2ZK73rXhU"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
             </div>
         </div>
 
@@ -165,10 +152,11 @@
             <div class="box">
                 <h2>SIGUENOS</h2>
                 <div class="redes">
-                    <a href="#" class="fa fa-facebook"></i></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-whatsapp"></a>
-                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="https://www.facebook.com/soyenergiayoga-110489493945860/" class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/soyenergiayoga/" class="fa fa-instagram"></a>
+                    <a href="https://wa.me/+5491164750349" class="fa fa-whatsapp"></a>
+                    <a href="https://www.youtube.com/channel/UCJvLus9YOrYt38LYxUEjKng/featured"
+                        class="fa fa-youtube"></a>
                 </div>
             </div>
         </div>

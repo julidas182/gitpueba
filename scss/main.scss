@@ -3,26 +3,54 @@
 @import "general";
 
 
-.contactos{
+.contactos {
     margin-left: 5rem;
     margin-top: 2.5rem;
     margin-bottom: 5rem;
-} 
+}
+
+.propuestas {
 
 
-@media screen and (max-width:800px){
-    .pieDePagina .grupo1{
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+
+    .dinamico {
+        background-color: rgba(248, 235, 163, 0.5);
+
+    }
+
+    .integral {
+        background-color: rgba(248, 235, 163, 0.5);
+    }
+
+    .elementos {
+        background-color: rgba(248, 235, 163, 0.5);
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width:800px) {
+    .pieDePagina .grupo1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 5px;
         padding: 3rem 0;
-        
+
     }
 }
-    
-@media screen and (max-width:800px){
-    .pieDePagina .grupo1 .box figure img{
+
+@media screen and (max-width:800px) {
+    .pieDePagina .grupo1 .box figure img {
         text-align: center center;
     }
-    
+
 }
