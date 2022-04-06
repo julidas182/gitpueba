@@ -93,6 +93,10 @@ header .barraNav .nav-item {
     transition: ease-out 1s;
     transform: scale(1.05); }
 
+.productos .productoscolumna {
+  margin-top: 5rem;
+  text-align: center; }
+
 .contactos {
   margin-left: 5rem;
   margin-top: 2.5rem;
