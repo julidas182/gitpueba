@@ -1,3 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+iframe {
+  width: 100%;
+  scale: 0.8; }
+
+header .barraNav .nav-item {
+  font-family: Arial, Helvetica, sans-serif; }
+  header .barraNav .nav-item:hover {
+    background-color: rgba(248, 235, 163, 0.637);
+    transition: ease-out 1s;
+    transform: scale(1.05); }
+
 body {
   background-image: url(/fotos/banner1.jpg);
   background-size: cover;
@@ -29,6 +45,28 @@ body {
       line-height: 2em;
       margin-top: 3rem;
       font-size: 2rem; }
+
+.productos .productoscolumna {
+  margin-top: 5rem;
+  text-align: center; }
+
+.contactos {
+  margin-left: 5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem; }
+
+.propuestas img {
+  max-width: 100%;
+  max-height: 100%; }
+
+.propuestas .dinamico {
+  background-color: rgba(248, 235, 163, 0.5); }
+
+.propuestas .integral {
+  background-color: rgba(248, 235, 163, 0.5); }
+
+.propuestas .elementos {
+  background-color: rgba(248, 235, 163, 0.5); }
 
 .pieDePagina {
   width: auto;
@@ -74,44 +112,6 @@ body {
       transition: all 300ms ease; }
       .pieDePagina .grupo1 .box .redes a:hover {
         color: blue; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-iframe {
-  width: 100%;
-  scale: 0.8; }
-
-header .barraNav .nav-item {
-  font-family: Arial, Helvetica, sans-serif; }
-  header .barraNav .nav-item:hover {
-    background-color: rgba(248, 235, 163, 0.637);
-    transition: ease-out 1s;
-    transform: scale(1.05); }
-
-.productos .productoscolumna {
-  margin-top: 5rem;
-  text-align: center; }
-
-.contactos {
-  margin-left: 5rem;
-  margin-top: 2.5rem;
-  margin-bottom: 5rem; }
-
-.propuestas img {
-  max-width: 100%;
-  max-height: 100%; }
-
-.propuestas .dinamico {
-  background-color: rgba(248, 235, 163, 0.5); }
-
-.propuestas .integral {
-  background-color: rgba(248, 235, 163, 0.5); }
-
-.propuestas .elementos {
-  background-color: rgba(248, 235, 163, 0.5); }
 
 @media screen and (max-width: 800px) {
   .pieDePagina .grupo1 {
